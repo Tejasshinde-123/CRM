@@ -1,0 +1,39 @@
+
+header{
+    width: 100%;
+    background-color: white;
+    
+}
+
+.list{
+    
+   
+    margin-top: 10px;
+    border-radius: 20px;
+    width: 250px;
+    margin-left: 480px;
+}
+ul{
+    list-style-type: none;
+}
+li{  margin: 10px;
+    text-align: center;
+    font-size: 40px;
+    border: 2px solid white;
+    box-shadow: 1px 1px 4px 3px rgb(20, 90, 170) ;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    
+    
+}
+img{
+    height: 120px;
+    width: 350px;
+    
+}
+.list ul li a {
+    text-decoration: none;
+    color: black;
+    
+}
