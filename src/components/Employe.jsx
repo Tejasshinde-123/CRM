@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Employe = () => {
+function Employe() {
   return (
     <div>Employe</div>
   )
 }
+
+export default Employe

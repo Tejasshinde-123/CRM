@@ -2,12 +2,12 @@ import { useState } from 'react'
 import './App.css'
 
 import {BrowserRouter,  Route, Routes } from 'react-router-dom';
-import {Admin} from './components/Admin'
-import {Hr} from './components/Hr'
+import Admin from './components/Admin';
+import Hr from './components/Hr'
 import {Finance} from './components/Finance'
 import { MainPage } from './components/MainPage';
-import {Employe} from './components/Employe'
-import { Student } from './components/Student';
+import Employe from './components/Employe';
+import Student from './components/Student';
 function App() {
   
 
@@ -18,12 +18,13 @@ function App() {
 
 <Routes>
 
-  <Route path='/' element={<MainPage/>}/>
+  
   <Route path='/Admin' element={<Admin/>}/>
   <Route path='/Hr' element={<Hr/>}/>
   <Route path='/Student' element={<Student/>}/>
   <Route path='/Employe' element={<Employe/>}/>
   <Route path='/Finance' element={<Finance/>}/>
+  <Route path='/' element={<MainPage/>}/>
 
  
 

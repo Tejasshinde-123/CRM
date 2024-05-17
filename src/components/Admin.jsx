@@ -1,7 +1,12 @@
 import React from 'react'
 
-export const Admin = () => {
+function Admin() {
   return (
-    <div>hiiiiiii</div>
+    <div>
+      <h1>hellloooooo</h1>
+     
+    </div>
   )
 }
+
+export default Admin

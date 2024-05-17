@@ -5,3 +5,4 @@ export const Finance = () => {
     <div>hiiiiiii its Finance</div>
   )
 }
+export default Finance

@@ -1,7 +1,9 @@
 import React from 'react'
 
-export const Hr = () => {
+function Hr() {
   return (
-    <div>heloooooo</div>
+    <div>Hr</div>
   )
 }
+
+export default Hr
